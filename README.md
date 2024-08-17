@@ -62,6 +62,8 @@ For this task:
 - Each issue should be reported on a separate page with a screenshot or screencast.
 - Clearly describe the issue, list the browser used, and provide detailed steps to reproduce.
 
+**Pictures:**
+-Pictures for exploratory test are provided; 
 ### Task 2: Test Case Writing
 
 For this task:
