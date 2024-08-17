@@ -8,6 +8,9 @@ This repository contains automation and manual testing tasks assigned as part of
   - [Task 1: Drag and Drop and ToolTip Test](#task-1-drag-and-drop-and-tooltip-test)
   - [Task 2: Google Search Assertion Test](#task-2-google-search-assertion-test)
   - [Task 3: OrangeHRM Recruitment Test](#task-3-orangehrm-recruitment-test)
+  - [Technologies]
+  - [Prerequisites]
+  - [Dependecies]
 - [Manual Testing](#manual-testing)
   - [Task 1: Exploratory Testing](#task-1-exploratory-testing)
   - [Task 2: Test Case Writing](#task-2-test-case-writing)
@@ -46,6 +49,107 @@ This test performs the following steps:
 7. Use a JUnit assertion to verify that the number of candidates has decreased by 1.
 8. Logout of the application.
 9. An error is being happened while trying to click on button addCandidates. So adding new candidate, deleting them and logout doesn't happening, but code for that is provided.
+
+###Technologies:
+
+This assignment for automated test is done in:
+-Eclipse
+
+###Prerequisites:
+-JDK 11+
+-Selenium
+-TestNG
+
+###Dependecies:
+-<dependencies>
+	  
+	  <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	    <version>2.0.16</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.23.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.10.2</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.10.2</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- Verzija koja podržava Java 8 -->
+	<!--<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.14.3</version> 
+	    <scope>test</scope>
+	</dependency> -->
+  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+	<dependency>
+	    <groupId>io.github.bonigarcia</groupId>
+	    <artifactId>webdrivermanager</artifactId>
+	    <version>5.9.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.1.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>2.16.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.23.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-api</artifactId>
+	    <version>2.23.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-server</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+	<dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+</dependencies>
 
 ## Manual Testing
 
