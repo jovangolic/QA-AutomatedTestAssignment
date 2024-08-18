@@ -57,6 +57,7 @@ This assignment for automated test is done in:
 
 ###Prerequisites:
 -JDK 11+
+-Maven
 -Selenium
 -TestNG
 
